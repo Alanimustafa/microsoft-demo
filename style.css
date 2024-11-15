@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(225, 230, 233);
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  font-size: 20px;;
+}
+
+/* Microsoft Logo */
+.logoMicrosoft {
+  height: 55%;
+  margin-top: 5%;
+}
+
+/* Top header */
+.topHeader {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* Surface Links */
+.surface {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  width: 40%;
+  cursor: pointer;
+}
+
+/* All Microsoft link */
+.allMicrosoft {
+  display: inline-flex;
+  width: 10%;
+  align-self: center;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+
+/* The Cart */
+/* Log In */
+.cart,
+.logIn {
+  display: inline-flex;
+  width: 5%;
+  height: 70%;
+  margin-left: 3%;
+  margin-top:1%;
+  justify-content: center;
+}
+
+/* Cart Image */
+.cartImage {
+  width: 25%;
+  background:none;
+  cursor: pointer;
+  margin-left: 1vw;;
+}
+
+/* Animatition Bar */
+.animationSwitch {
+  display: flex;
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  justify-content:flex-end;
+  margin-right: 10%;
+  height:5vh;
+  flex-wrap: wrap;
+}
+
+/* Animation Text */
+.animationText {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 0px;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+/* Checkbox for Animation Acticvation */
+.checkBox {
+  background-color: none;
+  border: none;
+  height: 3vh;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  margin-right: 3vw;
+  cursor: pointer;
+}
+.checkBox:hover {
+  color: gray;
+  background-color: lightblue;
+}
+
+
+/* Main Navegation Bar */
+.mainNavegationBar {
+  display: flex;
+  background-color: rgb(238, 242, 250);
+  width: 100%;
+  height: 5vh;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Spec Tech Button */
+.techSpecs {
+  margin-right: 20vw;
+  margin-left: 5vw;
+}
+
+.comhelpstart {
+  display: inline-flex;
+  width: 40%;
+  justify-content: space-around;
+  margin-right: 10vw;
+  align-items: flex-end;
+}
+
+
+.buildingYours {
+  margin-right: 2vw;
+}
+.buildButton {
+  background-color: blue;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  cursor: pointer;
+  margin-top: 1px;
+}
+
+
+
+/* The Main Content */
+.mainContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.mainDeal {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  margin-top: 2vh;
+  box-shadow: 10px 10px 50px #000000;
+}
+
+.mainDealImage {
+  height: 100%;
+  width:25%;
+  justify-self: center;
+  align-self: center;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.mainDealText {
+  height: 100%;
+  width:50%;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.mainDealButton {
+  height: 100%;
+  width:25%;
+
+}
+
+
+.mainH2 {
+  margin-bottom: 0;
+}
+.dealText {
+  font-size: 18px;
+  margin: 0;;
+}
+
+.learnMore {
+  color: blue;
+}
+
+.dealButton {
+  background-color: blue;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top:1vh;
+  padding-bottom:1vh;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-left:10%;
+  cursor: pointer;
+}
